@@ -1,0 +1,192 @@
+version: 3
+domain: space_insurance
+created_by: celestia_admin
+seed_examples:
+  - context: |
+      The client qualification process serves as the foundation for all space
+      travel insurance policies.
+      Agents must conduct three essential assessments:
+      **Medical Assessment:** Clients must undergo specialized aerospace medical
+      evaluation that examines cardiovascular response to microgravity, bone
+      density measurements, and vestibular system sensitivity. These assessments
+      must be conducted by our partnered aerospace medicine specialists and
+      documented in our system.
+      **Psychological Evaluation:** Our standardized Space Psychology Assessment
+      Protocol (SPAP) evaluates
+      isolation tolerance, group dynamics compatibility, and stress response
+      patterns. Clients for missions exceeding 30 days require additional
+      psychological profiling focused on long-term isolation effects.
+      All evaluations must be completed by certified examiners with results
+      properly documented.
+      **Mission-Specific Qualification:** Agents must analyze the technical
+      parameters of the client's intended
+      space activity and match these with appropriate risk measures.
+    questions_and_answers:
+      - question: |
+          What assessments are required for client qualification?
+        answer: |
+          Three essential assessments are required: Medical Assessment
+          (examining cardiovascular response to microgravity, bone density, and
+          vestibular
+          system), Psychological Evaluation using the SPAP, and Mission-Specific
+          Qualification that analyzes technical parameters of the client's space
+          activity.
+      - question: |
+          What does the medical assessment for space travel insurance examine?
+        answer: |
+          The medical assessment examines cardiovascular response to
+          microgravity, bone density measurements, and vestibular system
+          sensitivity. These must
+          be conducted by partnered aerospace medicine specialists and properly
+          documented.
+      - question: |
+          What additional psychological profiling is required for longer
+          missions?
+        answer: |
+          Clients for missions exceeding 30 days require additional
+          psychological profiling specifically focused on long-term isolation
+          effects, beyond the standard Space Psychology Assessment Protocol
+          (SPAP).
+  - context: |
+      **Medical Assessment:** Clients must undergo specialized aerospace medical
+      evaluation that examines cardiovascular response to microgravity, bone
+      density measurements, and vestibular system sensitivity.
+      These assessments must be conducted by our partnered aerospace medicine
+      specialists and documented in our system.
+      All qualification documentation must be completed 90 days before mission
+      launch and maintained for fifteen years post-mission. This process isn't
+      about exclusion but about crafting precisely tailored protection
+      based on scientific assessment of client-specific risks.
+    questions_and_answers:
+      - question: |
+          When must qualification documentation be completed?
+        answer: |
+          All qualification documentation must be completed 90 days before
+          mission launch and maintained for fifteen years post-mission.
+      - question: |
+          Who must conduct the aerospace medical evaluations?
+        answer: |
+          The aerospace medical evaluations must be conducted by Celestia's
+          partnered aerospace medicine specialists and properly documented in
+          their system.
+      - question: |
+          What is the purpose of the client qualification process?
+        answer: |
+          The qualification process isn't about excluding clients but about
+          crafting precisely tailored protection based on scientific assessment
+          of client-specific risks.
+  - context: |
+      **Mission Risk Profile (MRP):** Agents must develop a detailed profile
+      identifying at least fifteen specific risk factors associated with the
+      client's space activity. For SpaceX Fram2 participants, this includes
+      risks related to experimental procedures, EVA activities, and scientific
+      equipment
+      interaction. The MRP must be cross-referenced with our Comprehensive
+      Risk Database.
+      **Coverage Configuration Session:** Agents must formally present
+      appropriate coverage options addressing four categories: personal
+      injury/medical response, equipment/vessel damage, mission failure
+      contingencies,
+      and third-party liability. Each category requires concrete examples of how
+      coverage would respond to mission-specific scenarios.
+    questions_and_answers:
+      - question: |
+          What is a Mission Risk Profile (MRP)?
+        answer: |
+          A Mission Risk Profile is a detailed profile developed by agents that
+          identifies at least fifteen specific risk factors associated with the
+          client's space activity. It must be cross-referenced with Celestia's
+          Comprehensive Risk Database.
+      - question: |
+          How many specific risk factors must be identified in an MRP?
+        answer: |
+          Agents must identify at least fifteen specific risk factors associated
+          with the client's space activity in the Mission Risk Profile.
+      - question: |
+          What four categories must be addressed during the Coverage
+          Configuration Session?
+        answer: |
+          During the Coverage Configuration Session, agents must present
+          coverage options addressing four categories: personal injury/medical
+          response,
+          equipment/vessel damage, mission failure contingencies, and
+          third-party liability.
+  - context: |
+      **Documentation and Pricing Transparency:** Throughout this process,
+      agents must maintain detailed notes in our system and generate a Coverage
+      Alignment Summary for client acknowledgment. The process concludes with a
+      Premium Calculation Report that clearly illustrates how each coverage
+      component
+      contributes to the overall price.
+      **Disclosure Package:** Agents must prepare comprehensive documentation
+      including the Policy Document,
+      Space Travel Risk Compendium, and Claims Procedure Manual specifically
+      tailored to the client's mission.
+      **Formal Review Session:** A minimum two-hour session must be conducted
+      where agents verbally explain
+      each major policy section, explicitly discussing mortality statistics,
+      accident scenarios, and health
+      risks specific to the mission profile. Clients must confirm understanding
+      after each section.
+    questions_and_answers:
+      - question: |
+          What reports must agents generate during the product alignment
+          process?
+        answer: |
+          Agents must generate a Coverage Alignment Summary for client
+          acknowledgment
+          and a Premium Calculation Report that illustrates how each coverage
+          component
+          contributes to the overall price.
+      - question: |
+          What documents are included in the Disclosure Package?
+        answer: |
+          The Disclosure Package includes the Policy Document, Space Travel Risk
+          Compendium, and Claims Procedure Manual, all specifically tailored to
+          the client's mission.
+      - question: |
+          What is the minimum duration of the Formal Review Session?
+        answer: |
+          The Formal Review Session must be a minimum of two hours where agents
+          verbally explain each major policy section to the client.
+  - context: |
+      **Authentication and Specialized Documentation:** All documents require
+      proper witnessing through notarization or our certified digital system.
+      Clients must initial each page of risk disclosures.
+      Missions involving experimental procedures require additional consent
+      documentation with separate signatures.
+      All legal documentation must be completed 45 days prior to launch. The
+      informed consent process is not merely a legal formality but a crucial
+      educational opportunity ensuring clients truly understand their risks and
+      protections.
+      These three processes must be implemented sequentially and completely,
+      without abbreviation. Compliance is monitored through our Celestial
+      Process Audit System, with monthly reports for each agent.
+    questions_and_answers:
+      - question: |
+          When must all legal documentation be completed?
+        answer: |
+          All legal documentation must be completed 45 days prior to launch.
+      - question: |
+          What additional requirements exist for missions with experimental
+          procedures?
+        answer: |
+          Missions involving experimental procedures require additional consent
+          documentation with separate signatures beyond the standard
+          documentation.
+      - question: |
+          How is compliance with these processes monitored?
+        answer: |
+          Compliance with these processes is monitored through the Celestial
+          Process
+          Audit System, with monthly reports generated for each agent.
+document_outline: |
+  This document outlines the mandatory processes for space travel insurance at
+  Celestia Space Assurance Corporation, including client qualification
+  assessment, product alignment and coverage configuration, and informed consent
+  and legal documentation.
+document:
+  repo: https://github.com/open-evening-2025/resources
+  commit: cd3d2788af07e3a2c3be6044e82fc2faf21613a9
+  patterns:
+    - space_insurance_processes/celestial_mandatory_processes.md
