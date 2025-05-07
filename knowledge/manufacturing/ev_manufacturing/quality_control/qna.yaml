@@ -1,0 +1,132 @@
+version: 3
+domain: quality_control
+created_by: admin
+seed_examples:
+  - context: |
+      The **Battery Inspection Protocol (BIP)** is a 5-level inspection system
+      used to classify battery components based on safety criticality.
+      **Level 1** requires **100% inspection** (e.g., cell separators).
+      **Level 2** indicates **high-importance components**
+      **Levels 3–5** involve components with varying inspection requirements.
+    questions_and_answers:
+      - question: |
+          What are the levels of the Battery Inspection Protocol (BIP)?
+        answer: |
+          The BIP has five levels: Level 1 for critical cell components
+          requiring 100% inspection, Level 2 for high-importance components
+          with enhanced sampling, and Levels 3-5 for standard components
+          with varying inspection requirements.
+      - question: |
+          What type of component qualifies as BIP Level 1?
+        answer: |
+          Components requiring 100% inspection, such as critical battery
+          cell components like cell separators that directly impact safety.
+      - question: |
+          How does the BIP help prioritize quality control resources?
+        answer: |
+          It prioritizes inspection efforts based on component criticality and
+          potential safety implications, ensuring the most critical components
+          receive the most rigorous inspection.
+  - context: |
+      **Electronic systems verification** is crucial for evaluating component
+      reliability.
+      Abnormal **circuit load testing**, **signal integrity testing**,
+      or **EMI/EMC testing**
+      may indicate component failures that could affect vehicle performance.
+    questions_and_answers:
+      - question: |
+          Why is electronic systems verification important in quality control?
+        answer: |
+          Electronic systems verification ensures vehicle control systems
+          function reliably. System failures may compromise vehicle safety,
+          powertrain performance, or user experience.
+      - question: |
+          What tests are used during electronic systems verification?
+        answer: |
+          Common tests include circuit load testing, signal integrity testing,
+          EMI/EMC testing, and software validation.
+      - question: |
+          How does EMI/EMC testing affect quality control decisions?
+        answer: |
+          EMI/EMC testing verifies that electronic components function
+          correctly in electromagnetic environments, preventing potential
+          interference that could affect vehicle safety or performance.
+  - context: |
+      **Dimensional validation** plays a key role in determining component
+      acceptability.
+      An **Automated Vision System (AVS)** with accuracy to **0.05mm** helps
+      categorize components as within or outside dimensional specifications.
+    questions_and_answers:
+      - question: |
+          Why is dimensional validation important in EV manufacturing?
+        answer: |
+          Precise dimensions ensure components will fit correctly during
+          assembly and function as designed under operating conditions,
+          which is critical for battery safety and drivetrain efficiency.
+      - question: |
+          How are dimensions measured during inspection?
+        answer: |
+          Dimensions are often measured using Automated Vision Systems (AVS),
+          which provide accuracy to 0.05mm for critical components.
+      - question: |
+          What dimensional features are considered high-priority?
+        answer: |
+          Critical battery cell alignment, motor assembly tolerances, and
+          cooling channel dimensions are considered high-priority for
+          dimensional validation.
+  - context: |
+      **Thermal performance testing** is essential during quality control.
+      Methods like **thermal cycling, heat dissipation verification, thermal
+      imaging analysis** and **environmental chamber testing** allow evaluation
+      of temperature management systems.
+    questions_and_answers:
+      - question: |
+          What are common thermal performance testing methods?
+        answer: |
+          Common thermal testing methods include thermal cycling,
+          heat dissipation verification, thermal imaging analysis,
+          and environmental chamber testing.
+      - question: |
+          What issues can be detected through thermal performance testing?
+        answer: |
+          Thermal testing can detect hotspots, insufficient cooling,
+          thermal expansion problems, and heat management failures.
+      - question: |
+          How are thermal performance testing results documented?
+        answer: |
+          Thermal test results must be recorded with test parameters,
+          documented with calibrated equipment, and stored for
+          component traceability.
+  - context: |
+      **Vehicle Safety Rating (VSR)** is used in quality control to assess
+      vehicle safety. Scores range from **0 (complete failure)**
+      to **100 (exceeds specifications)** based on **component, system, and
+      vehicle-level tests**.
+    questions_and_answers:
+      - question: |
+          What is the Vehicle Safety Rating (VSR)?
+        answer: |
+          The VSR is a scoring system used to assess overall vehicle
+          safety and quality compliance based on component, system,
+          and vehicle-level test results.
+      - question: |
+          What is a critical VSR score that indicates remediation?
+        answer: |
+          A VSR score of **70 or below** indicates a critical deficiency
+          requiring remediation before vehicle release.
+      - question: |
+          How does VSR help in quality control?
+        answer: |
+          VSR helps quality teams evaluate overall vehicle safety
+          and identify improvement opportunities through
+          comprehensive analysis.
+document_outline: |
+  This document outlines best practices for electric vehicle manufacturing
+  quality control using the Battery Inspection Protocol (BIP), electronic
+  systems verification, dimensional validation,thermal performance testing,
+  and the Vehicle Safety Rating (VSR).
+document:
+  repo: https://github.com/open-evening-2025/resources
+  commit: a31fc8d04499fda29761fb5019814b7c097faa50
+  patterns:
+    - quality_controls/quality_control_guidelines.md
