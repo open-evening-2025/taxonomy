@@ -1,0 +1,122 @@
+version: 3
+domain: emergency_room
+created_by: hospital_admin
+seed_examples:
+  - context: |
+      The **Emergency Severity Index (ESI)** is a 5-level triage system used to
+      classify patients based on urgency.
+      **Level 1** requires **immediate intervention** (e.g., cardiac arrest).
+      **Level 2** indicates **high-risk conditions** (e.g., stroke symptoms).
+      **Levels 3–5** involve stable patients with varying resource needs.
+    questions_and_answers:
+      - question: |
+          What are the levels of the Emergency Severity Index (ESI)?
+        answer: |
+          The ESI has five levels: Level 1 for immediate intervention
+          needed, Level 2 for high-risk conditions, and Levels 3-5 for
+          stable patients with different resource needs.
+      - question: |
+          What type of patient qualifies as ESI Level 1?
+        answer: |
+          Patients requiring immediate life-saving interventions, such as those
+          experiencing cardiac arrest or severe trauma.
+      - question: |
+          How does the ESI help triage patients?
+        answer: |
+          It prioritizes patient care based on urgency and expected resource
+          needs, ensuring critically ill patients receive
+          immediate attention.
+  - context: |
+      **Vital signs** are crucial for evaluating triage priority.
+      Abnormal **heart rate**, **respiratory rate**, or **blood pressure**
+      may indicate a life-threatening condition requiring urgent intervention.
+    questions_and_answers:
+      - question: |
+          Why are vital signs important in triage?
+        answer: |
+          Vital signs help assess the severity of illness.
+          Abnormal readings may indicate
+          urgent medical needs.
+      - question: |
+          What vital signs are assessed during triage?
+        answer: |
+          Common vital signs include heart rate, respiratory rate,
+          blood pressure, and oxygen saturation.
+      - question: |
+          How does hypotension affect triage decisions?
+        answer: |
+          Hypotension (low blood pressure) may indicate shock
+          or internal bleeding,
+          requiring urgent evaluation.
+  - context: |
+      **Pain assessment** plays a key role in determining triage priority.
+      A **Numeric Pain Rating Scale (NPRS)** from **0 to 10** helps categorize
+      pain severity and urgency of care.
+    questions_and_answers:
+      - question: |
+          Why is pain assessment important in emergency triage?
+        answer: |
+          Pain severity can indicate potential underlying conditions that
+          require urgent medical attention.
+      - question: |
+          How is pain measured during triage?
+        answer: |
+          Pain is often measured using the Numeric Pain Rating Scale (NPRS),
+          which ranges from 0 (no pain) to 10 (worst imaginable pain).
+      - question: |
+          What types of pain are considered high-priority?
+        answer: |
+          Severe chest pain, uncontrolled abdominal pain, or sudden
+          intense headaches may indicate critical conditions requiring
+          urgent evaluation.
+  - context: |
+      **Respiratory distress** is a red-flag condition during triage.
+      Symptoms like **shortness of breath, wheezing, cyanosis**
+      (bluish skin), and abnormal lung sounds require immediate evaluation.
+    questions_and_answers:
+      - question: |
+          What are signs of respiratory distress?
+        answer: |
+          Common signs include shortness of breath, wheezing,
+          and cyanosis (bluish skin).
+      - question: |
+          What conditions can cause respiratory distress?
+        answer: |
+          Potential causes include asthma, pneumonia, chronic
+          obstructive pulmonary disease (COPD), and heart failure.
+      - question: |
+          How is respiratory distress managed in triage?
+        answer: |
+          Patients with respiratory distress may receive oxygen
+          therapy, bronchodilators, or urgent respiratory support.
+  - context: |
+      **Glasgow Coma Scale (GCS)** is used in triage to assess
+      patient consciousness. Scores range from **3 (deep coma)**
+      to **15 (fully alert)** based on **eye, verbal, and motor responses**.
+    questions_and_answers:
+      - question: |
+          What is the Glasgow Coma Scale (GCS)?
+        answer: |
+          The GCS is a neurological scale used to measure consciousness
+          levels in emergency patients based on eye, verbal, and
+          motor responses.
+      - question: |
+          What is a critical GCS score that indicates immediate intervention?
+        answer: |
+          A GCS score of **8 or below** suggests severe impairment and requires
+          urgent airway management and neurological assessment.
+      - question: |
+          How does GCS help in emergency triage?
+        answer: |
+          GCS helps triage teams quickly determine the severity of head
+          injuries and altered mental states, guiding critical treatment
+          decisions.
+document_outline: |
+  This document outlines best practices for emergency room triage using the
+  Emergency Severity Index (ESI), vital signs monitoring, pain assessment,
+  respiratory distress evaluation, and the Glasgow Coma Scale (GCS).
+document:
+  repo: https://github.com/open-evening-2025/resources
+  commit: 43cd01c62e5743eed69dea562ac7c35187a9e45d
+  patterns:
+    - triage_protocols/er_triage_guidelines.md
